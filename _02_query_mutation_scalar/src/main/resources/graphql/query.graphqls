@@ -1,0 +1,5 @@
+type Query{
+    # 根据 id 查询 book,参数名为 id,参数类型的 ID 类型,结果返回 book
+    getBookById(id:ID!):Book
+}
+

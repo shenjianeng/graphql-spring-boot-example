@@ -1,0 +1,13 @@
+scalar Long
+scalar Date
+
+
+type Book{
+    id:ID!
+    name:String!
+    # 增加 author 字段,数据类型为 Author
+    author:Author
+    totalPageSize:Long
+    createTime:Date
+
+}

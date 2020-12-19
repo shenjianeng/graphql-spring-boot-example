@@ -1,0 +1,12 @@
+type Mutation{
+    createBook(id:ID!,name:String!,createTime:Date):Book
+    create(bookInput:BookInput!):Book
+}
+
+
+
+input BookInput{
+    id:ID!
+    name:String!
+}
+

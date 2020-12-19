@@ -1,0 +1,7 @@
+# 定义 Author 数据类型结构
+type Author{
+    id:ID!
+    name:String!
+}
+
+

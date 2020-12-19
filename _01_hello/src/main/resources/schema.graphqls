@@ -1,0 +1,23 @@
+# 表示构建一个 user 数据结构
+type User{
+    # id,类型就是 ID ,! 表示是必填字段
+    id:ID!
+    # username 字段,String 类型
+    username:String!
+    nickname:String!
+    # city 字段,类型是 City 枚举
+    city:City
+}
+
+# City 枚举值
+enum City{
+    hangzhou
+    shanghai
+}
+
+# 查询相关接口
+type Query{
+    # 获取用户列表
+    userList:[User!]
+}
+
