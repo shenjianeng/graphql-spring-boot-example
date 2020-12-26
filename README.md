@@ -14,7 +14,9 @@ Spring Boot GraphQL 实战系列文章正在连载更新中，感谢大家关注
 
 掘金：https://juejin.cn/user/2172290708027992
 
-博客园专题：https://www.cnblogs.com/coderxiaohei/
+博客园专题：https://www.cnblogs.com/coderxiaohei/category/1903209.html
+
+简书专题：https://www.jianshu.com/c/4329354a95ef
 
 
 
