@@ -9,6 +9,7 @@
         <module>_01_hello</module>
         <module>_02_query_mutation_scalar</module>
         <module>_03_validation_exception_async</module>
+        <module>_04_pagination</module>
     </modules>
     <name>graphql-spring-boot-example</name>
     <description>graphql-spring-boot-example</description>

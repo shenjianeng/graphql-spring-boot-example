@@ -1,0 +1,6 @@
+type PageResult{
+    items:[Student]!
+    pageNo:Int!
+    pageSize:Int!
+    totalCount:Int!
+}

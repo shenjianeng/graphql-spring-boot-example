@@ -1,0 +1,4 @@
+type Query{
+    findAll(pageNo:Int!,pageSize:Int!):PageResult!
+    students(first: Int, after: String): StudentConnection @connection(for: "Student")
+}
